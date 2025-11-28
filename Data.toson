@@ -1,0 +1,14 @@
+[{Data}]{
+    let x >: [
+        value: {
+            13
+        }
+    ]    
+    let name >: {
+        ask >: [
+            output >: {
+                "What's your name? "
+            }
+        ]
+    }
+}
