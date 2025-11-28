@@ -22,11 +22,15 @@ Installation
 
 Clone the repository:
 
-```git clone https://github.com/ToSonCode/ToSon-temp```
+```
+git clone https://github.com/ToSonCode/ToSon-temp
+```
 
 then
 
-```cd ToSon```
+```
+cd ToSon
+```
 
 Usage
 
