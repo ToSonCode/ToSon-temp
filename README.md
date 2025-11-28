@@ -151,7 +151,7 @@ Contributions are welcome! Please follow these steps:
 
 Fork the repository
 
-Create a new branch (git checkout -b feature/YourFeature)
+Create a new branch (`git checkout -b feature/YourFeature`)
 
 Make your changes
 
