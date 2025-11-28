@@ -50,7 +50,7 @@ Example Template
 Commands Syntax\n
 
 Command	Syntax Example	Description
-say: say >: {
+```say: say >: {
     text: "Hello World"
     color: "green"
 }
@@ -59,17 +59,18 @@ say: say >: {
 Let: let x >: {
     "42"
 }
+```
 Assign a variable
 
 
-ask: ask >: {
+```ask: ask >: {
     have "name" >: 
         [be "ask1"]
     output: "What's your name?" }
 Ask input from user
+```
 
-
-if/else: if "x" >: {
+```if/else: if "x" >: {
     value: {
         "42"
         } 
@@ -80,39 +81,39 @@ else >: {
     }
 }
 Conditional execution
+```
 
-
-repeat:	repeat 3 {
+```repeat:	repeat 3 {
     say >: {
         text: "Hi" 
         }
     }	
 Loop commands multiple times
+```
 
-
-choose:	choose >: {
+```choose:	choose >: {
     from: [
         "A","B"
        ] 
        have "choice" }	
 Pick a random value from a list
-
-
-set:	set block "Main" >: 
+```
+```
+set: set block "Main" >: 
     [ 
         { key: val
     }
 ]	
 
 Assign block variables
+```
 
-
-list:	list	
+```list:	list	
 Show all implemented commands
-
+```
 
 Example Usage
-[{Main}]{
+```[{Main}]{
     say >: {
         variable: none
         text: "Hello World!"
@@ -120,7 +121,7 @@ Example Usage
     }
     let x >: { "42" }
 }
-
+```
 
 This template demonstrates a basic ToSon file with a say command and a variable assignment.
 
