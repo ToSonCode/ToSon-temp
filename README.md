@@ -33,7 +33,8 @@ Usage
 The ToSon Template Maker generates .toson templates using a simple syntax.
 
 Example Template
-```[{Main}]{ 
+```
+[{Main}]{ 
     say >: {
         text: "Hello World" 
         color: "green" 
@@ -50,7 +51,8 @@ Example Template
 Commands Syntax\n
 
 Command	Syntax Example	Description
-```say: say >: {
+```
+say: say >: {
     text: "Hello World"
     color: "green"
 }
@@ -63,14 +65,16 @@ Let: let x >: {
 Assign a variable
 
 
-```ask: ask >: {
+```
+ask: ask >: {
     have "name" >: 
         [be "ask1"]
     output: "What's your name?" }
 Ask input from user
 ```
 
-```if/else: if "x" >: {
+```
+if/else: if "x" >: {
     value: {
         "42"
         } 
@@ -83,7 +87,8 @@ else >: {
 Conditional execution
 ```
 
-```repeat:	repeat 3 {
+```
+repeat:	repeat 3 {
     say >: {
         text: "Hi" 
         }
@@ -91,7 +96,8 @@ Conditional execution
 Loop commands multiple times
 ```
 
-```choose:	choose >: {
+```
+choose:	choose >: {
     from: [
         "A","B"
        ] 
@@ -108,12 +114,14 @@ set: set block "Main" >:
 Assign block variables
 ```
 
-```list:	list	
+```
+list:	list	
 Show all implemented commands
 ```
 
 Example Usage
-```[{Main}]{
+```
+[{Main}]{
     say >: {
         variable: none
         text: "Hello World!"
@@ -145,6 +153,6 @@ Commit and push your changes
 
 Open a Pull Request
 
-License
+`License:`
 
-MIT License © 2025 ToSon
+`MIT License © 2025 ToSon`
