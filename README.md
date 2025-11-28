@@ -56,13 +56,13 @@ Commands Syntax\n
 
 Command	Syntax Example	Description
 ```
-say: say >: {
+say >: {
     text: "Hello World"
     color: "green"
 }
     Print colored text
     
-Let: let x >: {
+let x >: {
     "42"
 }
 ```
@@ -70,7 +70,7 @@ Assign a variable
 
 
 ```
-ask: ask >: {
+ask >: {
     have "name" >: 
         [be "ask1"]
     output: "What's your name?" }
@@ -78,7 +78,7 @@ Ask input from user
 ```
 
 ```
-if/else: if "x" >: {
+if "x" >: {
     value: {
         "42"
         } 
@@ -92,7 +92,7 @@ Conditional execution
 ```
 
 ```
-repeat:	repeat 3 {
+repeat 3 {
     say >: {
         text: "Hi" 
         }
@@ -101,7 +101,7 @@ Loop commands multiple times
 ```
 
 ```
-choose:	choose >: {
+choose >: {
     from: [
         "A","B"
        ] 
@@ -109,7 +109,7 @@ choose:	choose >: {
 Pick a random value from a list
 ```
 ```
-set: set block "Main" >: 
+set block "Main" >: 
     [ 
         { key: val
     }
@@ -119,7 +119,7 @@ Assign block variables
 ```
 
 ```
-list:	list	
+list	
 Show all implemented commands
 ```
 
