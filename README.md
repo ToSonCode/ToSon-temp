@@ -22,18 +22,18 @@ Installation
 
 Clone the repository:
 
-`git clone https://github.com/ToSonCode/ToSon-temp`
+```git clone https://github.com/ToSonCode/ToSon-temp```
 
 then
 
-`cd ToSon`
+```cd ToSon```
 
 Usage
 
 The ToSon Template Maker generates .toson templates using a simple syntax.
 
 Example Template
-[{Main}]{ 
+```[{Main}]{ 
     say >: {
         text: "Hello World" 
         color: "green" 
@@ -46,7 +46,7 @@ Example Template
         output: "What's your name?"
     }
 }
-
+```
 Commands Syntax\n
 
 Command	Syntax Example	Description
