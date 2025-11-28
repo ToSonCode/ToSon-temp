@@ -1,0 +1,9 @@
+[{Starter}]{ ~look its the same as the file name❗❗
+::text.toson
+::data.toson
+~add more imports if you have more files
+    start >: {
+        text.toson,
+        data.toson
+    }
+}
