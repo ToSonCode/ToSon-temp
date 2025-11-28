@@ -54,6 +54,7 @@ say: say >: {
     color: "green"
 }
     Print colored text
+    
 Let: let x >: {
     "42"
 }
@@ -63,6 +64,7 @@ ask: ask >: {
         [be "ask1"]
     output: "What's your name?" }
 Ask input from user
+
 if/else: if "x" >: {
     value: {
         "42"
@@ -74,26 +76,31 @@ else >: {
     }
 }
 Conditional execution
+
 repeat:	repeat 3 {
     say >: {
         text: "Hi" 
         }
     }	
 Loop commands multiple times
+
 choose:	choose >: {
     from: [
         "A","B"
        ] 
        have "choice" }	
 Pick a random value from a list
+
 set:	set block "Main" >: 
     [ 
         { key: val
     }
 ]	
+
 Assign block variables
 list:	list	
 Show all implemented commands
+
 Example Usage
 [{Main}]{
     say >: {
