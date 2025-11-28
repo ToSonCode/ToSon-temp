@@ -1,0 +1,12 @@
+[{text}]{  ~see how its the same as the file name?
+    say >: {
+        text: "What path do you go? "
+        color: "green"
+    }
+    ask >: [
+        have r_1 >: [
+             be r_1
+             ]
+        output >: " "
+    ]
+~you can add more later
