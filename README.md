@@ -42,17 +42,17 @@ Example Template
     say >: {
         text: "Hello World" 
         color: "green" 
-    } \n
+    } 
     let x >: { "42" }
     ask >: {
         have "name" >: [
             be "ask1"
-        ]n\
+        ]
         output: "What's your name?"
     }
 }
 ```
-Commands Syntax\n
+## Commands Syntax
 
 Command	Syntax Example	Description
 ```
@@ -65,9 +65,9 @@ say >: {
 let x >: {
     "42"
 }
-```
-Assign a variable
 
+Assign a variable
+```
 
 ```
 ask >: {
