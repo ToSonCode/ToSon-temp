@@ -7,6 +7,6 @@
         have r_1 >: [
              be r_1
              ]
-        output >: " "
+        output >: ">>> "
     ]
 ~you can add more later
