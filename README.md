@@ -60,11 +60,14 @@ Let: let x >: {
     "42"
 }
 Assign a variable
+
+
 ask: ask >: {
     have "name" >: 
         [be "ask1"]
     output: "What's your name?" }
 Ask input from user
+
 
 if/else: if "x" >: {
     value: {
@@ -78,12 +81,14 @@ else >: {
 }
 Conditional execution
 
+
 repeat:	repeat 3 {
     say >: {
         text: "Hi" 
         }
     }	
 Loop commands multiple times
+
 
 choose:	choose >: {
     from: [
@@ -92,6 +97,7 @@ choose:	choose >: {
        have "choice" }	
 Pick a random value from a list
 
+
 set:	set block "Main" >: 
     [ 
         { key: val
@@ -99,8 +105,11 @@ set:	set block "Main" >:
 ]	
 
 Assign block variables
+
+
 list:	list	
 Show all implemented commands
+
 
 Example Usage
 [{Main}]{
