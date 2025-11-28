@@ -33,21 +33,22 @@ Usage
 The ToSon Template Maker generates .toson templates using a simple syntax.
 
 Example Template
-[{Main}]{
+[{Main}]{ 
     say >: {
-        text: "Hello World"
-        color: "green"
-    }
+        text: "Hello World" 
+        color: "green" 
+    } \n
     let x >: { "42" }
     ask >: {
         have "name" >: [
             be "ask1"
-        ]
+        ]n\
         output: "What's your name?"
     }
 }
 
-Commands Syntax
+Commands Syntax\n
+
 Command	Syntax Example	Description
 say: say >: {
     text: "Hello World"
