@@ -23,6 +23,9 @@ Installation
 Clone the repository:
 
 `git clone https://github.com/ToSonCode/ToSon-temp`
+
+then
+
 `cd ToSon`
 
 Usage
