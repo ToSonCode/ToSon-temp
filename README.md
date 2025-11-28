@@ -29,7 +29,7 @@ git clone https://github.com/ToSonCode/ToSon-temp
 then
 
 ```
-cd ToSon
+cd ToSon-temp
 ```
 
 Usage
